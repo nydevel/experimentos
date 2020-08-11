@@ -1,5 +1,7 @@
 # experimentos
 
-This repo is for researching goals only.
+# This project is for education purpose
 
-I'm just playing with rust, so, what can be better than write your own OS huh?
+I earning OS development from this blog https://os.phil-opp.com/
+
+Recomend it!
