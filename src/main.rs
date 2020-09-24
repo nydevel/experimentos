@@ -5,6 +5,8 @@ extern crate rlibc;
 
 use core::panic::PanicInfo;
 
+static HELLO: &[u8] = b"Hello world!";
+
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
     let vga_buffer = 0xb8000 as *mut u8;

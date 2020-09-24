@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 rlibc = "1.0.0"
+bootloader = "0.9.8"
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
