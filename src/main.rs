@@ -1,7 +1,10 @@
 #![no_std]
 #![no_main]
 
+mod vga_buffer;
+
 extern crate rlibc;
+dfsdf;
 
 use core::panic::PanicInfo;
 
